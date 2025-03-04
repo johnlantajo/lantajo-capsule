@@ -32,7 +32,7 @@ print(account.get_balance())  # Outputs: 1000
 account.deposit(500)  # Outputs: Deposited 500. New balance: 1500
 
 
-# print(account.__balance)  # This will raise an AttributeError
+print(account.__balance)  # This will raise an AttributeError
 
 # Withdrawing money
 account.withdraw(200)  # Outputs: Withdrew 200. New balance: 1300
